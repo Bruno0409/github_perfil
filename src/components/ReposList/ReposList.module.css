@@ -24,3 +24,9 @@
     padding: 8px;
 
 }
+
+.erro {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
