@@ -1,0 +1,30 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root{
+    --corPricipal: #485460;
+    --corSecundaria: #dddddd;
+}
+
+/* Garantir que o body e html ocupem 100% da tela */
+html, body {
+    height: 100%;  /* Ocupa 100% da altura */
+    width: 100%;   /* Ocupa 100% da largura */
+}
+
+/* Garantir que #root ocupe toda a tela */
+#root {
+    height: 100%;  /* Ocupa 100% da altura */
+    width: 100%;   /* Ocupa 100% da largura */
+}
